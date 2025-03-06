@@ -1,0 +1,104 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+header h1,
+section h2,
+section h3,
+form button {
+    font-family: "Sigmar", sans-serif;
+}
+
+body,
+input,
+textarea {
+    font-family: "Roboto Slab", serif
+}
+
+header {
+    padding: 16px 0;
+    background-color: #1B8070;
+    color: #FFF9EB;
+}   
+
+header nav li {
+    display: inline;
+    margin-left: 14px;
+    font-size: 14px;
+}
+
+header nav li a {
+    color: #FFF9EB;
+    text-decoration: none;
+}
+
+header img {
+    height: 100px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.brand-list img {
+    height: 18px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-right: 12px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #1B8070;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #1B8070;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.imagens {
+    display: flex;
+    gap: 10px; /* Espaço entre as colunas */
+}
+
+.foto1 {
+    height: 500px;
+}
+
+.coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre a foto2 e foto3 */
+}
+
+.foto2,
+.foto3 {
+    height: 245px;
+}
