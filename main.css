@@ -27,7 +27,7 @@ header {
 header nav li {
     display: inline;
     margin-left: 14px;
-    font-size: 14px;
+    font-size: 25px ;
 }
 
 header nav li a {
@@ -38,6 +38,7 @@ header nav li a {
 header img {
     height: 100px;
 }
+
 
 .container {
     max-width: 1280px;
@@ -56,8 +57,20 @@ header a:hover {
     text-decoration: underline;
 }
 
+section .rokes {
+    margin-left: 50px;
+    margin-top:125px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+section .rokes h1 {
+    font-weight: normal;
+}
+
 .brand-list img {
-    height: 18px;
+    height: 61px;
 }
 
 .brand-list li {
@@ -84,8 +97,9 @@ section p {
 }
 
 .imagens {
+    margin-top: 50px;
     display: flex;
-    gap: 10px; /* Espaço entre as colunas */
+    gap: 10px; 
 }
 
 .foto1 {
@@ -95,10 +109,104 @@ section p {
 .coluna-direita {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espaço entre a foto2 e foto3 */
+    gap: 10px; 
 }
 
 .foto2,
 .foto3 {
     height: 245px;
+}
+
+.video {
+    height: 600px;
+}
+
+.mp4 {
+    margin-top: 100px;
+    
+}
+
+.vejavoce h1{
+    margin-left: 40px;
+    font-size:  100px;
+
+}
+
+section .mp4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.follow img {
+    height: 30px;
+}
+
+.wpp img {
+    height: 35px;
+}
+
+form input,
+textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section .contact-methods {
+    background-color: #E9ECEF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-methods {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.follow,
+.wpp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input:focus {
+    outline-color: #1B8070;
+}
+
+form button {
+    background-color:#1B8070;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:#0b312b;
+}
+
+footer {
+    background-color: #1B8070;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
 }
